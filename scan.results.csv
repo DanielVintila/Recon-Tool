@@ -1,0 +1,9 @@
+host,port,status,reason,banner,service_hint,http_url,http_final_url,http_status_code,http_title,http_meta_description,http_server_header
+example.com,22,closed,timeout,,,,,,,,
+example.com,80,closed,timeout,,,,,,,,
+example.com,443,open,,,http,https://example.com:443/,https://example.com:443/,200,Example Domain,,
+example.com,8000,closed,timeout,,,,,,,,
+nmap.scanme.org,22,open,,SSH-2.0-OpenSSH_6.6.1p1 Ubuntu-2ubuntu2.13,,,,,,,
+nmap.scanme.org,80,open,,,http,http://nmap.scanme.org:80/,http://nmap.scanme.org:80/,200,Go ahead and ScanMe!,,Apache/2.4.7 (Ubuntu)
+nmap.scanme.org,443,closed,refused,,,,,,,,
+nmap.scanme.org,8000,closed,refused,,,,,,,,
