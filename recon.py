@@ -1,8 +1,3 @@
-'''
-Student name:   Daniel Vintila
-Student ID:     C00307041
-'''
-
 import argparse
 import socket 
 import concurrent.futures
